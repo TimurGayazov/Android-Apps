@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Крестики Нолики"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:layout_marginTop="50px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="200px"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/game_start"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--        android:textColor="@color/design_default_color_error"-->
+<!--        android:textSize="30dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:layout_marginBottom="200px"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <Button
+        android:id="@+id/player1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="#ADD8E6"
+        android:insetLeft="50px"
+        android:insetRight="50px"
+        android:visibility="visible"
+        android:text="Игрок 1 не авторизован"
+        android:textColor="@android:color/background_dark"
+        app:cornerRadius="50px"></Button>
+
+    <Button
+        android:id="@+id/player2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="400px"
+        android:backgroundTint="#ADD8E6"
+        android:insetLeft="50px"
+        android:insetRight="50px"
+        android:text="Игрок 2 не авторизован"
+        android:textColor="@android:color/background_dark"
+        app:cornerRadius="50px"></Button>
+
+    <Button
+        android:id="@+id/stat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50px"
+        android:backgroundTint="#32CD32"
+        android:insetLeft="50px"
+        android:insetRight="50px"
+        android:text="Статистика"
+
+        android:textColor="@android:color/background_dark"
+        app:cornerRadius="50px"></Button>
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50px"
+        android:backgroundTint="#FF0400"
+        android:insetLeft="50px"
+        android:insetRight="50px"
+        android:text="Сброс игры"
+
+        android:textColor="@android:color/background_dark"
+        app:cornerRadius="50px"></Button>
+
+
+</LinearLayout>

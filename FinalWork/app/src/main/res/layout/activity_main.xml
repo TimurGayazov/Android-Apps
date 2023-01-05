@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Final Work"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="40dp"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="50px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="306dp"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="50px"
+        android:background="@drawable/gradient"
+        android:elevation="10dp"
+        android:stateListAnimator="@null"
+        android:translationZ="10dp"
+
+        android:padding="5dp"
+
+        android:src="@drawable/schema"
+
+        />
+
+    <ImageView
+        android:layout_width="432dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:background="@drawable/gradient"
+
+        android:padding="5dp"
+        android:elevation="10dp"
+        android:stateListAnimator="@null"
+        android:translationZ="10dp"
+
+        android:src="@drawable/functions1"
+
+        />
+
+    <EditText
+        android:id="@+id/input_Inp"
+        android:layout_width="match_parent"
+        android:textColorHint="@color/white"
+        android:gravity="center"
+        android:hint="Enter x1 x2 x3 x4"
+        android:insetLeft="50px"
+        android:insetRight="50px"
+        android:fontFamily="monospace"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_marginBottom="50px"
+        android:lines="@integer/material_motion_duration_long_1"
+
+        android:layout_height="wrap_content"></EditText>
+
+    <Button
+        android:id="@+id/resultBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50px"
+
+        android:background="@drawable/gradient"
+
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:fontFamily="monospace"
+        android:text="Perform"
+        android:textColor="@android:color/background_dark"
+        android:elevation="10dp"
+        android:stateListAnimator="@null"
+        android:translationZ="10dp"
+        app:cornerRadius="30px"></Button>
+
+</LinearLayout>

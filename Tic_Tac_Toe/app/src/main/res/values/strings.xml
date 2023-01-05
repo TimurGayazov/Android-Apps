@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tic_Tac_Toe</string>
+
+    <string-array name="x_o">
+        <item>Крестик</item>
+        <item>Нолик</item>
+    </string-array>
+</resources>

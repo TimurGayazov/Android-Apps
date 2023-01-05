@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lab1_calc</string>
+    <string name="plus">Сложение</string>
+    <string name="minus">Вычитание</string>
+    <string name="umnozh">Умножение</string>
+    <string name="devi">Деление</string>
+    <string name="res">Результат</string>
+    <string name="back">Вернуться назад</string>
+    <string name="del0">На 0 делить нельзя!</string>
+
+</resources>

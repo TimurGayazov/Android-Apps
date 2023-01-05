@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Displaying_Lists</string>
+
+    <string-array name="purchases">
+        <item>Молоко</item>
+        <item>Йогурт</item>
+        <item>Арбуз</item>
+        <item>Вода</item>
+        <item>Бананы</item>
+        <item>Мука</item>
+        <item>Яблоки</item>
+        <item>Сметана</item>
+    </string-array>
+</resources>

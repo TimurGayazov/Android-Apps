@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="250px"
+        android:fontFamily="sans-serif-thin"
+        android:text="Калькулятор"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="150px"></TextView>
+
+
+    <EditText
+        android:id="@+id/op1"
+        android:layout_width="150pt"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/background_light"
+        
+        android:nestedScrollingEnabled="false"
+        android:phoneNumber="true"
+        android:singleLine="false"></EditText>
+
+    <EditText
+        android:layout_width="150pt"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/background_light"
+        android:layout_marginBottom="100px"
+        android:phoneNumber="true"
+        android:id="@+id/op2"
+
+        ></EditText>
+
+
+    <Button
+        android:id="@+id/sumBtn"
+        android:layout_width="150pt"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50px"
+        android:backgroundTint="#b0e0"
+        android:text="@string/plus"
+        android:textColor="@android:color/background_dark"
+        app:cornerRadius="50px"></Button>
+
+    <Button
+        android:layout_width="150pt"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:backgroundTint="#b0e0"
+        android:text="@string/minus"
+        android:id="@+id/subBtn"
+        app:cornerRadius="50px"
+        android:layout_marginBottom="50px"
+        ></Button>
+
+    <Button
+        android:layout_width="150pt"
+        app:cornerRadius="50px"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:backgroundTint="#b0e0"
+        android:text="@string/umnozh"
+        android:id="@+id/multiBtn"
+        android:layout_marginBottom="50px"
+        ></Button>
+
+    <Button
+        android:layout_width="150pt"
+        app:cornerRadius="50px"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:backgroundTint="#b0e0"
+        android:text="@string/devi"
+        android:id="@+id/divisionBtn"
+        android:layout_marginBottom="50px"
+        ></Button>
+
+
+
+</LinearLayout>
